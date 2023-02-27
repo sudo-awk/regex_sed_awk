@@ -8,4 +8,4 @@ to remove all whitespaces in stdout
 tr -d ' \t\n\r'
 
 to replace new lines, into a comma
-sed -z 's/\n/,/g;s/,$/\n/' 
+sed -z 's/\n/,/g;s/,$/\n/' file.txt
